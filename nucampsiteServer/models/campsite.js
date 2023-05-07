@@ -9,19 +9,19 @@ const commentSchema = new Schema(
       type: Number,
       min: 1,
       max: 5,
-      required: true,
+      required: true
     },
     text: {
       type: String,
-      required: true,
+      required: true
     },
     author: {
       type: String,
-      required: true,
-    },
+      required: true
+    }
   },
   {
-    timestamps: true,
+    timestamps: true
   }
 );
 
