@@ -5,6 +5,7 @@ var logger = require('morgan');
 const campsiteRouter = require('./routes/campsiteRouter');
 const promotionRouter = require('./routes/promotionRouter');
 const partnerRouter = require('./routes/partnerRouter');
+const uploadRouter = require('./routes/uploadRouter');
 const passport = require('passport');
 const config = require('./config');
 
